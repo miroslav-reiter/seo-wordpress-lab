@@ -1,0 +1,13 @@
+url,title,indexable,kind
+/,Domov,yes,home
+/kurzy/,Online kurzy,yes,category
+/blog/,Blog,yes,category
+/kurzy/linux/,Linux kurzy,yes,category
+/kurzy/wordpress/,WordPress kurzy,yes,category
+/kurzy/linux-admin/,Linux Administrator,yes,product
+/kurzy/wordpress-seo/,WordPress SEO,yes,product
+/blog/linux-prikazy/,Linux prikazy,yes,article
+/blog/seo-odkazy/,Interne odkazy SEO,yes,article
+/blog/stary-navod/,Stary navod,yes,article
+/faq/prihlasenie/,FAQ prihlasenie,yes,faq
+/kurzy/neexistujuci/,Zruseny kurz,no,removed
