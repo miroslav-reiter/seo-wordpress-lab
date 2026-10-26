@@ -1,0 +1,14 @@
+source,target,anchor,placement
+/,/kurzy/,Online kurzy,navigation
+/,/blog/,Blog a navody,navigation
+/kurzy/,/kurzy/linux/,Kurzy Linux,context
+/kurzy/,/kurzy/wordpress/,Kurzy WordPress,context
+/kurzy/linux/,/kurzy/linux-admin/,Kurz Linux Administrator,context
+/kurzy/wordpress/,/kurzy/wordpress-seo/,Kurz WordPress SEO,context
+/blog/,/blog/linux-prikazy/,Linux prikazy,context
+/blog/,/blog/seo-odkazy/,SEO interne odkazy,context
+/blog/linux-prikazy/,/kurzy/linux-admin/,Online kurz Linux Administrator,context
+/blog/seo-odkazy/,/kurzy/wordpress-seo/,WordPress SEO kurz,context
+/blog/seo-odkazy/,/kurzy/neexistujuci/,Kliknite sem,context
+/kurzy/linux/,/kurzy/linux-admin/,Viac informacii,footer
+/kurzy/linux/,/kurzy/linux-admin/,Linux administrator,context
