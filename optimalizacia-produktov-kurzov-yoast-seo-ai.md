@@ -1,43 +1,41 @@
 # Optimalizácia produktov a kurzov s Yoast SEO a AI
 
 **Praktický sprievodca pre WordPress a WooCommerce**
+
 Optimalizáciu produktov a kurzov s Yoast SEO a AI postavíme na konkrétnom pracovnom postupe: analyzujeme produkt → vyberieme kľúčovú frázu → pripravíme obsah pomocou AI → vyplníme Yoast SEO → overíme výsledok → vyhodnotíme výkon.
 
 ## Obsah
 
-- **[1. Cieľ videa a výsledok pre účastníkov](#cast-1)**
-- **[2. Cieľové skupiny a prínos školenia](#cast-2)**
-- **[3. Scenár a časovanie videa](#cast-3)**
+- **[1. Cieľ a výsledok optimalizácie](#cast-1)**
+- **[2. Komu je návod určený](#cast-2)**
+- **[3. Pracovný postup krok za krokom](#cast-3)**
 - **[4. Rozdiel medzi jednotlivými nástrojmi](#cast-4)**
-- **[5. Čo pripravíme pred nahrávaním](#cast-5)**
+- **[5. Podklady pred optimalizáciou](#cast-5)**
 - **[6. Praktický postup v administrácii](#cast-6)**
-- **[7. Ako vysvetlíme kľúčové frázy](#cast-7)**
-- **[8. Štyri praktické ukážky na kurzoch VITA](#cast-8)**
+- **[7. Výber kľúčovej frázy a synoným](#cast-7)**
+- **[8. Príklady optimalizácie štyroch kurzov VITA](#cast-8)**
 - **[9. Ako pracujeme so zeleným hodnotením Yoastu](#cast-9)**
 - **[10. Univerzálny AI prompt pre akýkoľvek produkt](#cast-10)**
 - **[11. Konkrétne AI prompty pre štyri kurzy](#cast-11)**
 - **[12. Opravný prompt podľa skutočných upozornení Yoastu](#cast-12)**
 - **[13. Kontrolný prompt pred publikovaním](#cast-13)**
 - **[14. Technická časť pre správcov a vývojárov](#cast-14)**
-- **[15. Záverečná kontrola a zadanie pre účastníkov](#cast-15)**
+- **[15. Kontrola publikovanej stránky a meranie výsledkov](#cast-15)**
 - **[Zdroje a referenčné stránky](#zdroje)**
 
 <a id="cast-1"></a>
 
-## 1. Cieľ a výsledok pre účastníkov
-Po absolvovaní videa účastníci dokážu optimalizovať jednu produktovú stránku vo WooCommerce. Vyberú vhodnú kľúčovú frázu, upravia produktový obsah, nastavia SEO názov a meta popis, skontrolujú obrázky a vyhodnotia odporúčania Yoastu.
+## 1. Cieľ a výsledok optimalizácie
 
-Pri práci s AI sa naučia zadávať overené produktové údaje, kontrolovať výsledky a opravovať konkrétne nedostatky bez vymýšľania vlastností produktu.
+Cieľom je pripraviť produktovú stránku, ktorá jasne vysvetľuje ponuku, zodpovedá vyhľadávaciemu zámeru zákazníka a obsahuje správne SEO údaje. Postup zahŕňa výber kľúčovej frázy, úpravu produktového textu, nastavenie SEO názvu a meta popisu, kontrolu obrázkov a vyhodnotenie odporúčaní Yoastu.
 
-Hlavná myšlienka:
-
-> Optimalizovaná produktová stránka má jasne vysvetliť, čo predávame, komu je produkt určený a aký problém rieši. Yoast nám pomáha kontrolovať vybrané SEO pravidlá. AI urýchľuje prípravu návrhov. Za správnosť informácií a finálne rozhodnutia zodpovedáme my.
+Výsledkom je upravená stránka vo WooCommerce, overený obsah a záznam zmien na následné meranie výkonu. AI používame na prípravu návrhov z doložených údajov. Za správnosť informácií a finálne rozhodnutia zodpovedáme my.
 
 <a id="cast-2"></a>
 
-## 2. Cieľové skupiny a prínos školenia
+## 2. Komu je návod určený
 
-| Cieľová skupina | Čo si odnesie z videa |
+| Cieľová skupina | Prínos návodu |
 |---|---|
 | SEO konzultanti | Opakovateľný postup auditu a návrhu úprav produktových stránok |
 | Produktoví manažéri | Prepojenie vlastností produktu, potrieb zákazníka a obsahu stránky |
@@ -51,20 +49,20 @@ Hlavná myšlienka:
 
 <a id="cast-3"></a>
 
-## 3. Scenár a časovanie videa
+## 3. Pracovný postup krok za krokom
 
-| Čas | Téma | Čo predvedieme |
+| Krok | Čo urobíme | Výsledok |
 |---|---|---|
-| 00:00–05:00 | Čo znamená produktové SEO | Rozdiel medzi viditeľnosťou, návštevnosťou a predajom |
-| 05:00–12:00 | WordPress, WooCommerce a Yoast | Ktorý nástroj spravuje ktoré údaje |
-| 12:00–20:00 | Vyhľadávací zámer a kľúčové frázy | Rozdiel medzi produktom, kategóriou a informačným článkom |
-| 20:00–28:00 | Produktová stránka a SEO polia | Názov, krátky a hlavný popis, SEO názov, meta popis |
-| 28:00–43:00 | Digitálny Marketing II. | Kompletný postup optimalizácie s pomocou AI |
-| 43:00–53:00 | Enterprise Architektúra | Terminológia, synonymá a súvisiace frázy |
-| 53:00–63:00 | AutoCAD I. Začiatočník | Benefity, vstupná úroveň a obrázky |
-| 63:00–73:00 | PHP I. Začiatočník | Presnosť obsahu a oprava upozornení Yoastu |
-| 73:00–82:00 | Produktové dáta a technická kontrola | Cena, identifikátory, indexovateľnosť a schema |
-| 82:00–90:00 | Kontrola a meranie výsledkov | Publikovaná stránka, Search Console a obchodné výsledky |
+| 1 | Zaznamenáme pôvodný obsah, SEO polia a dostupné metriky | Východiskový stav na porovnanie |
+| 2 | Overíme vlastnosti produktu, cieľovú skupinu a podmienky | Spoľahlivé podklady pre text a AI |
+| 3 | Určíme vyhľadávací zámer a vyberieme hlavnú frázu | Tematické zameranie stránky |
+| 4 | Pripravíme krátky a hlavný popis pomocou AI promptu | Návrh obsahu na kontrolu |
+| 5 | Skontrolujeme fakty, prínosy, synonymá a sľuby | Obsah zodpovedajúci produktu |
+| 6 | Vyplníme SEO názov, meta popis a relevantné polia Yoastu | Nastavené SEO údaje |
+| 7 | Upravíme obrázky, alt texty, kategórie a značky | Konzistentná produktová stránka |
+| 8 | Opravíme konkrétne upozornenia Yoastu | Skontrolovaný obsah v analyzátore |
+| 9 | Overíme technický výstup, mobilné zobrazenie a nákup | Funkčná publikovaná stránka |
+| 10 | Zaznamenáme dátum zmien a vyhodnotíme dostupné metriky | Podklad na ďalšie úpravy |
 
 <a id="cast-4"></a>
 
@@ -79,29 +77,31 @@ Hlavná myšlienka:
 | Yoast WooCommerce SEO | Pridáva produktovo špecifickú analýzu a rozširuje prepojenie produktových údajov so štruktúrovanými dátami |
 | AI asistent | Pripravuje návrhy textov, varianty a kontrolné rozbory podľa dodaných podkladov |
 
-**Yoast SEO Premium a Yoast WooCommerce SEO nie sú totožné rozšírenia.** Pred nahrávaním skontrolujeme, ktoré sú na webe aktívne. Špecializované produktové kontroly nebudeme automaticky pripisovať základnému Yoastu.
+**Yoast SEO Premium a Yoast WooCommerce SEO nie sú totožné rozšírenia.** Pred optimalizáciou skontrolujeme, ktoré sú na webe aktívne. Špecializované produktové kontroly nebudeme automaticky pripisovať základnému Yoastu.
 
 <a id="cast-5"></a>
 
-## 5. Čo pripravíme pred nahrávaním
-- Otvoríme štyri produkty v administrácii a ich verejné stránky
+## 5. Podklady pred optimalizáciou
+
+- Otvoríme vybraný produkt v administrácii a jeho verejnú stránku
 - Zaznamenáme pôvodný SEO názov, meta popis a upozornenia Yoastu
-- Pripravíme aktuálnu osnovu, cieľové skupiny a vstupné požiadavky každého kurzu
+- Pripravíme vlastnosti produktu, cieľové skupiny a podmienky použitia. Pri kurze doplníme aktuálnu osnovu a vstupné požiadavky
 - Skontrolujeme jazyk webu a verzie aktívnych pluginov
 - Pripravíme obrázky, ktoré budeme skutočne používať
 - Poznačíme dátum zmien na následné vyhodnotenie
 
-Nález z pôvodnej prípravy materiálu: pri kurzoch Enterprise Architektúra, AutoCAD a PHP sa vo verejnom popise nachádzalo označenie „akreditovaný“. Pred jeho prevzatím do nových textov overíme aktuálny podklad a platnosť pre konkrétny kurz. Samotný existujúci text nie je dôkazom správnosti tohto tvrdenia.
+Tvrdenia o akreditácii, certifikácii, licencii alebo záruke overíme podľa aktuálnych podkladov pre konkrétny produkt. Samotný existujúci popis nie je dôkazom správnosti tvrdenia.
 
 <a id="cast-6"></a>
 
 ## 6. Praktický postup v administrácii
+
 V bežnom editore WooCommerce začneme cez:
 WordPress → Produkty → Všetky produkty → vybraný produkt → Upraviť
 
-Umiestnenie jednotlivých panelov sa líši podľa editora a konfigurácie. Vo videu ukážeme skutočné rozloženie webu.
+Umiestnenie jednotlivých panelov sa líši podľa editora a konfigurácie. Príslušné polia vyhľadáme v používanom editore produktu.
 
-| Pole alebo časť | Čo upravujeme | Na čo upozorníme |
+| Pole alebo časť | Čo upravujeme | Čo skontrolujeme |
 |---|---|---|
 | Názov produktu | Presné pomenovanie produktu a úrovne | SEO názov je samostatné pole |
 | Hlavný popis | Obsah, prínosy, použitie a podmienky | Nepíšeme všeobecné frázy bez informácií |
@@ -116,8 +116,9 @@ WooCommerce rozlišuje virtuálny produkt a produkt na stiahnutie. Prístup k on
 
 <a id="cast-7"></a>
 
-## 7. Ako vysvetlíme kľúčové frázy
-Na jednom príklade oddelíme štyri veci:
+## 7. Výber kľúčovej frázy a synoným
+
+Pri výbere výrazov rozlišujeme hlavnú frázu, jej významové varianty, súvisiace témy a produktové značky:
 
 | Pojem | Príklad pre PHP | Použitie |
 |---|---|---|
@@ -132,11 +133,13 @@ Frázy navrhnuté AI berieme ako kandidátov. Ich hľadanosť a vhodnosť overí
 
 <a id="cast-8"></a>
 
-## 8. Štyri praktické ukážky na kurzoch VITA
+## 8. Príklady optimalizácie štyroch kurzov VITA
+
 Nasledujúce frázy sú **pracovné návrhy bez overenej hľadanosti**. Existujúce URL ponecháme. Nebudeme ich meniť iba kvôli zelenej kontrole v Yoaste.
 
-### Ukážka A — Digitálny Marketing II. Mierne Pokročilý
-**Čo učíme:** kompletný postup a odlíšenie mierne pokročilého kurzu od začiatočníckeho.
+### Príklad A — Digitálny Marketing II. Mierne Pokročilý
+
+**Cieľ úpravy:** kompletný postup a odlíšenie mierne pokročilého kurzu od začiatočníckeho.
 
 Verejný obsah uvádza napríklad segmentáciu, personalizáciu, GA4, marketingové plánovanie a Google Ads. Na týchto témach postavíme konkrétnu hodnotu produktu.
 
@@ -152,15 +155,17 @@ Verejný obsah uvádza napríklad segmentáciu, personalizáciu, GA4, marketingo
 
 > Online kurz Digitálny marketing II. pre mierne pokročilých. Prehĺbte si znalosti GA4, Google Ads, segmentácie a plánovania marketingových kampaní. ✅
 
-**Priebeh ukážky:**
-1. Vysvetlíme úroveň kurzu a očakávania návštevníka
+**Postup optimalizácie:**
+
+1. V popise jasne uvedieme úroveň kurzu a zohľadníme očakávania návštevníka
 2. Dodáme AI osnovu a overené fakty
 3. Porovnáme všeobecný text s konkrétnym popisom prínosov
 4. Vyplníme Yoast a skontrolujeme spätnú väzbu
-5. Upozorníme na možné prekrývanie s kurzom Digitálny Marketing I. alebo kategóriou kurzov
+5. Posúdime možné prekrývanie s kurzom Digitálny Marketing I. alebo kategóriou kurzov
 
-### Ukážka B — Enterprise Architektúra
-**Čo učíme:** odbornú presnosť a odlíšenie témy od názvu softvéru.
+### Príklad B — Enterprise Architektúra
+
+**Cieľ úpravy:** odborná presnosť a odlíšenie témy od názvu softvéru.
 
 V kurze sa spájajú enterprise architektúra, ArchiMate, TOGAF a práca s nástrojom Enterprise Architect. Tieto pomenovania označujú rozdielne veci.
 
@@ -176,14 +181,16 @@ V kurze sa spájajú enterprise architektúra, ArchiMate, TOGAF a práca s nást
 
 > Online kurz Enterprise architektúra vás prevedie modelovaním v ArchiMate, rámcom TOGAF a návrhom biznis, aplikačnej a technologickej architektúry. ✅
 
-**Priebeh ukážky:**
+**Postup optimalizácie:**
+
 1. Oddelíme disciplínu, modelovací jazyk, rámec a softvér
-2. Ukážeme nesprávne synonymá navrhnuté AI a opravíme ich
+2. Vyhľadáme nesprávne synonymá navrhnuté AI a opravíme ich
 3. Preložíme odborné vlastnosti do zrozumiteľných prínosov
 4. Skontrolujeme, že text nesľubuje oficiálnu certifikáciu TOGAF bez podkladu
 
-### Ukážka C — AutoCAD I. Začiatočník
-**Čo učíme:** jasné pomenovanie vstupnej úrovne a prepojenie nástrojov s výsledkom práce.
+### Príklad C — AutoCAD I. Začiatočník
+
+**Cieľ úpravy:** jasné pomenovanie vstupnej úrovne a prepojenie nástrojov s výsledkom práce.
 
 Obsah kurzu zahŕňa technické kreslenie, úpravy objektov, kótovanie, hladiny a bloky.
 
@@ -199,16 +206,18 @@ Obsah kurzu zahŕňa technické kreslenie, úpravy objektov, kótovanie, hladiny
 
 > Online kurz AutoCAD pre začiatočníkov. Naučte sa vytvárať technické výkresy, upravovať objekty, kótovať a pracovať s hladinami aj blokmi. ✅
 
-**Priebeh ukážky:**
-1. Ukážeme rozdiel medzi vlastnosťou „práca s hladinami“ a prínosom „prehľadné usporiadanie výkresu“
+**Postup optimalizácie:**
+
+1. V texte prepojíme vlastnosť „práca s hladinami“ s prínosom „prehľadné usporiadanie výkresu“
 2. Skrátime úvod tak, aby návštevník rýchlo pochopil obsah
 3. Otvoríme skutočný obrázok a vytvoríme jeho alt text
 4. Skontrolujeme, že popis nepredpokladá zahrnutú licenciu AutoCADu ani výučbu nepotvrdených tém
 
 Príklad alt textu použijeme iba vtedy, ak zodpovedá obrázku: „Technický výkres s kótami a hladinami v prostredí AutoCAD“.
 
-### Ukážka D — PHP I. Začiatočník
-**Čo učíme:** kontrolu technickej správnosti a postupnú opravu upozornení Yoastu.
+### Príklad D — PHP I. Začiatočník
+
+**Cieľ úpravy:** kontrola technickej správnosti a postupná oprava upozornení Yoastu.
 
 Verejný popis uvádza premenné, riadiace štruktúry, formuláre, GET a POST, funkcie a prácu so súbormi.
 
@@ -224,7 +233,8 @@ Verejný popis uvádza premenné, riadiace štruktúry, formuláre, GET a POST, 
 
 > Online kurz PHP pre začiatočníkov. Osvojte si premenné, podmienky, cykly, funkcie a spracovanie formulárov pri tvorbe dynamických webových stránok. ✅
 
-**Priebeh ukážky:**
+**Postup optimalizácie:**
+
 1. Porovnáme osnovu s textom navrhnutým AI
 2. Odstránime nepodložené zmienky o frameworkoch či pokročilých témach
 3. Skopírujeme konkrétne upozornenia Yoastu do opravného promptu
@@ -233,6 +243,7 @@ Verejný popis uvádza premenné, riadiace štruktúry, formuláre, GET a POST, 
 <a id="cast-9"></a>
 
 ## 9. Ako pracujeme so zeleným hodnotením Yoastu
+
 Zelený indikátor použijeme ako praktický cieľ obsahovej kontroly. **Nie je potvrdením správnosti faktov ani zárukou pozície v Google.**
 
 | Upozornenie | Ako postupujeme |
@@ -249,12 +260,14 @@ Zelený indikátor použijeme ako praktický cieľ obsahovej kontroly. **Nie je 
 
 Yoast vykonáva viacero samostatných kontrol a ich dostupnosť závisí aj od produktu a jazyka. Slovenský jazyk podporuje, rozsah jazykových funkcií však nie je pri všetkých jazykoch a edíciách totožný.
 
-Pri názvoch a meta popisoch vysvetlíme, že orientačné počty znakov slúžia na prípravu textu. Zobrazenie závisí aj od šírky a zariadenia. Google navyše môže vytvoriť iný titulok alebo úryvok než ten, ktorý zadáme.
+Orientačné počty znakov pri SEO názvoch a meta popisoch používame ako pomôcku pri príprave textu. Zobrazenie závisí aj od šírky a zariadenia. Google navyše môže vytvoriť iný titulok alebo úryvok než ten, ktorý zadáme.
 
 <a id="cast-10"></a>
 
 ## 10. Univerzálny AI prompt pre akýkoľvek produkt
+
 Tento prompt použijeme ako základ. Funguje pre fyzický produkt, digitálny produkt aj službu, ak doplníme správne podklady.
+
 ```text
 Pracuj ako SEO špecialista a produktový copywriter pre WordPress, WooCommerce a Yoast SEO.
 
@@ -312,9 +325,11 @@ Výstup označ ako návrh na overenie v editore a analyzátore Yoastu.
 <a id="cast-11"></a>
 
 ## 11. Konkrétne AI prompty pre štyri kurzy
+
 Každý nasledujúci prompt použijeme spolu s aktuálnou osnovou a produktovým textom. Samotná URL nenahrádza podklady, ak ju AI nedokáže načítať.
 
 ### Prompt 1 — Digitálny Marketing II.
+
 ```text
 Priprav SEO optimalizáciu produktu VITA:
 Online kurz Digitálny Marketing II. Mierne Pokročilý.
@@ -353,6 +368,7 @@ Existujúcu URL zachovaj.
 ```
 
 ### Prompt 2 — Enterprise Architektúra
+
 ```text
 Priprav SEO optimalizáciu produktu VITA:
 Online kurz Enterprise Architektúra.
@@ -391,6 +407,7 @@ Existujúcu URL zachovaj.
 ```
 
 ### Prompt 3 — AutoCAD I. Začiatočník
+
 ```text
 Priprav SEO optimalizáciu produktu VITA:
 Online kurz AutoCAD I. Začiatočník.
@@ -426,6 +443,7 @@ Existujúcu URL zachovaj.
 ```
 
 ### Prompt 4 — PHP I. Začiatočník
+
 ```text
 Priprav SEO optimalizáciu produktu VITA:
 Online kurz PHP I. Začiatočník.
@@ -463,7 +481,9 @@ Existujúcu URL zachovaj.
 <a id="cast-12"></a>
 
 ## 12. Opravný prompt podľa skutočných upozornení Yoastu
-Toto bude jedna z najpraktickejších častí videa. Ukážeme postup vložiť → skontrolovať → cielene opraviť → znova skontrolovať.
+
+Po vložení návrhu do editora skopírujeme presné upozornenia Yoastu a použijeme ich ako vstup do opravného promptu. Postupujeme v cykle **vložiť → skontrolovať → cielene opraviť → znova skontrolovať**.
+
 ```text
 Uprav nižšie uvedené SEO podklady podľa konkrétnych upozornení Yoastu.
 
@@ -504,6 +524,7 @@ Výstup:
 <a id="cast-13"></a>
 
 ## 13. Kontrolný prompt pred publikovaním
+
 ```text
 Skontroluj návrh produktovej stránky oproti overeným podkladom.
 
@@ -535,7 +556,8 @@ Aj po tejto kontrole výsledok overíme človekom. Google vo svojich pokynoch v�
 <a id="cast-14"></a>
 
 ## 14. Technická časť pre správcov a vývojárov
-Ukážeme, že obsahová analýza Yoastu je iba jednou časťou kontroly produktu.
+
+Obsahová analýza Yoastu je iba jednou časťou kontroly produktu. Po uložení zmien overíme aj výstup publikovanej stránky.
 
 | Kontrola | Čo overíme |
 |---|---|
@@ -551,14 +573,17 @@ Ukážeme, že obsahová analýza Yoastu je iba jednou časťou kontroly produkt
 Yoast WooCommerce SEO dopĺňa produktový schema výstup a prepája dostupné údaje o ponuke či hodnoteniach. Kurzom nevymýšľame EAN alebo GTIN iba preto, aby zmizlo upozornenie. SKU je interný identifikátor a nemožno ho automaticky zameniť za GTIN.
 
 Výstup overíme v nástroji Google Rich Results Test:
+
 - **[https://search.google.com/test/rich-results](https://search.google.com/test/rich-results)**
 
 Platné štruktúrované dáta nezaručujú zobrazenie rozšíreného výsledku. Pri online kurzoch tiež nebudeme automaticky predpokladať rovnakú oprávnenosť pre všetky nákupné funkcie Googlu ako pri fyzickom tovare.
 
 <a id="cast-15"></a>
 
-## 15. Záverečná kontrola a zadanie pre účastníkov
-Pred ukončením ukážky overíme:
+## 15. Kontrola publikovanej stránky a meranie výsledkov
+
+Po uložení a publikovaní zmien overíme:
+
 - Zhodu textov so skutočným produktom
 - Jasnú cieľovú skupinu a úroveň
 - SEO názov a meta popis v náhľade Yoastu
@@ -568,18 +593,18 @@ Pred ukončením ukážky overíme:
 - Funkčnosť nákupu a zobrazenie na mobile
 - Výsledný HTML výstup a produktové dáta
 
-Praktické zadanie: Vyberieme jeden produkt, zaznamenáme pôvodný stav, pripravíme návrh pomocou univerzálneho promptu a vykonáme kontrolovanú úpravu. Odovzdaným výsledkom bude pôvodný a nový SEO názov, meta popis, produktový text, upozornenia Yoastu a stručné zdôvodnenie zmien.
+**Záznam vykonaných zmien:** Pre každý upravený produkt uchováme pôvodný a nový SEO názov, meta popis, produktový text, upozornenia Yoastu, dátum úpravy a stručné zdôvodnenie zmien. Tento záznam použijeme pri porovnávaní výsledkov.
 
 Pri následnom vyhodnotení oddelíme organické kliknutia a zobrazenia, návštevnosť produktovej stránky a objednávky. Porovnanie pred úpravou a po nej posúdime spolu so sezónnosťou, reklamou, cenovými zmenami a ďalšími zásahmi.
 
-Záverečná veta do videa:
-
-> Pri optimalizácii produktu prepájame presné informácie, potreby zákazníka a technicky správnu stránku. AI nám pomáha pripraviť návrhy a Yoast odhaliť vybrané nedostatky. Výsledok overujeme na publikovanom webe a v reálnych dátach.
+Ďalšie úpravy plánujeme podľa zistených problémov a dostupných dát. Pri každej zmene overíme súlad obsahu s produktom aj správne zobrazenie na publikovanom webe.
 
 <a id="zdroje"></a>
 
 ## Zdroje a referenčné stránky
+
 ### Dokumentácia Yoast
+
 - **[https://yoast.com/features/seo-analysis/](https://yoast.com/features/seo-analysis/)**
 - **[https://yoast.com/product-descriptions-woocommerce-seo/](https://yoast.com/product-descriptions-woocommerce-seo/)**
 - **[https://developer.yoast.com/features/schema/plugins/woocommerce-seo/](https://developer.yoast.com/features/schema/plugins/woocommerce-seo/)**
@@ -590,16 +615,19 @@ Záverečná veta do videa:
 - **[https://yoast.com/global-identifiers-woocommerce-seo/](https://yoast.com/global-identifiers-woocommerce-seo/)**
 
 ### Dokumentácia WooCommerce
+
 - **[https://woocommerce.com/document/managing-products/product-editor-settings/](https://woocommerce.com/document/managing-products/product-editor-settings/)**
 - **[https://woocommerce.com/document/managing-products/](https://woocommerce.com/document/managing-products/)**
 
 ### Dokumentácia Google Search Central
+
 - **[https://developers.google.com/search/docs/appearance/title-link](https://developers.google.com/search/docs/appearance/title-link)**
 - **[https://developers.google.com/search/docs/appearance/snippet](https://developers.google.com/search/docs/appearance/snippet)**
 - **[https://developers.google.com/search/docs/fundamentals/using-gen-ai-content](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content)**
 - **[https://developers.google.com/search/docs/appearance/structured-data/product](https://developers.google.com/search/docs/appearance/structured-data/product)**
 
-### Kurzy použité v praktických ukážkach
+### Referenčné produktové stránky
+
 - **[https://www.vita.sk/online-kurz-digitalny-online-marketing-ii-mierne-pokrocily/](https://www.vita.sk/online-kurz-digitalny-online-marketing-ii-mierne-pokrocily/)**
 - **[https://www.vita.sk/online-kurz-enterprise-architektura/](https://www.vita.sk/online-kurz-enterprise-architektura/)**
 - **[https://www.vita.sk/online-kurz-autocad-i-zaciatocnik/](https://www.vita.sk/online-kurz-autocad-i-zaciatocnik/)**
