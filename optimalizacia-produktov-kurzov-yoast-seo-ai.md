@@ -1,13 +1,7 @@
 # Optimalizácia produktov a kurzov s Yoast SEO a AI
 
 **Praktický sprievodca pre WordPress a WooCommerce**
-Scenár 90-minútového videa, štyri praktické ukážky na kurzoch VITA a sedem opakovateľných AI promptov pre produkty.
-
-Navrhovaný názov videa: SEO vo WordPresse a WooCommerce: Optimalizácia produktov a kurzov s Yoast SEO a AI
-
-Video postavíme na konkrétnom pracovnom postupe: analyzujeme produkt → vyberieme kľúčovú frázu → pripravíme obsah pomocou AI → vyplníme Yoast SEO → overíme výsledok → vyhodnotíme výkon.
-
-Odporúčaný rozsah je približne 90 minút, aby zostal priestor na štyri praktické ukážky aj vysvetlenie promptov. Nasledujúce texty a SEO parametre sú návrhy na demonštráciu, nie potvrdené výsledky analýzy v administrácii webu.
+Optimalizáciu produktov a kurzov s Yoast SEO a AI postavíme na konkrétnom pracovnom postupe: analyzujeme produkt → vyberieme kľúčovú frázu → pripravíme obsah pomocou AI → vyplníme Yoast SEO → overíme výsledok → vyhodnotíme výkon.
 
 ## Obsah
 
@@ -30,12 +24,12 @@ Odporúčaný rozsah je približne 90 minút, aby zostal priestor na štyri prak
 
 <a id="cast-1"></a>
 
-## 1. Cieľ videa a výsledok pre účastníkov
+## 1. Cieľ a výsledok pre účastníkov
 Po absolvovaní videa účastníci dokážu optimalizovať jednu produktovú stránku vo WooCommerce. Vyberú vhodnú kľúčovú frázu, upravia produktový obsah, nastavia SEO názov a meta popis, skontrolujú obrázky a vyhodnotia odporúčania Yoastu.
 
 Pri práci s AI sa naučia zadávať overené produktové údaje, kontrolovať výsledky a opravovať konkrétne nedostatky bez vymýšľania vlastností produktu.
 
-Hlavná myšlienka na úvod videa:
+Hlavná myšlienka:
 
 > Optimalizovaná produktová stránka má jasne vysvetliť, čo predávame, komu je produkt určený a aký problém rieši. Yoast nám pomáha kontrolovať vybrané SEO pravidlá. AI urýchľuje prípravu návrhov. Za správnosť informácií a finálne rozhodnutia zodpovedáme my.
 
